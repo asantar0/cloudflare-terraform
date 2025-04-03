@@ -1,0 +1,7 @@
+# creation rules are evaluated sequentially, the first match wins
+creation_rules:
+    # upon creation of a file that matches the pattern *.dev.yaml,
+    # KMS set A as well as PGP and age is used
+    - path_regex: \.dev\.yaml$
+      kms: 'arn:aws:kms:us-east-1:650244845880:key/0ced891e-3464-4aad-8acc-e380b8540aca'
+      pgp: 'EE772A8C739181D6FFEBC7DC750ADA0AD9539C82'

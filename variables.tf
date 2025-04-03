@@ -1,7 +1,5 @@
-variable "zone_id" {
-  default = "***"
-}
+variable "zone_id" {}
 
-variable "domain" {
-  default = "***"
-}
+variable "domain" {}
+
+variable "api_token" {}
