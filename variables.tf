@@ -1,17 +1,17 @@
 variable "zone_id" {
-  default   = ""
+  #default   = ""
   type      = string
   sensitive = true
 }
 
 variable "domain" {
-  default   = ""
+  #default   = ""
   type      = string
   sensitive = true
 }
 
 variable "api_token" {
-  default   = ""
+  #default   = ""
   type      = string
   sensitive = true
 }
