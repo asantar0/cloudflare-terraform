@@ -1,17 +1,17 @@
 variable "zone_id" {
-  value     = ${{ secrets.ZONE_ID }}
+  default   = ""
   type      = string
   sensitive = true
 }
 
 variable "domain" {
-  value     = ${{ secrets.DOMAIN }}
+  default   = ""
   type      = string
   sensitive = true
 }
 
 variable "api_token" {
-  value     = ${{ secrets.API_TOKEN }}
+  default   = ""
   type      = string
   sensitive = true
 }

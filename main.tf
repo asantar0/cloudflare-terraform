@@ -6,7 +6,7 @@ resource "cloudflare_dns_record" "www" {
   name    = "www"
   proxied = true
   ttl     = 1
-  type    = "MX"
+  type    = "A"
 
   #ipv4_only and ipv6_only with "true" value are avaiable for special zones
   settings = {
