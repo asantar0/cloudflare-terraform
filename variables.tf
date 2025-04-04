@@ -1,5 +1,7 @@
-variable "zone_id" {}
+#Variables commented because of problem with github actions
 
-variable "domain" {}
+#variable "zone_id" {}
 
-variable "api_token" {}
+#variable "domain" {}
+
+#variable "api_token" {}
