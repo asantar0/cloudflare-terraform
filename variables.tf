@@ -1,7 +1,14 @@
-#Variables commented because of problem with github actions
+variable "zone_id" {
+  type      = string
+  sensitive = true
+}
 
-#variable "zone_id" {}
+variable "domain" {
+  type      = string
+  sensitive = true
+}
 
-#variable "domain" {}
-
-#variable "api_token" {}
+variable "api_token" {
+  type      = string
+  sensitive = true
+}

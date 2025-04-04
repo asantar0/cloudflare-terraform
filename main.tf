@@ -3,10 +3,10 @@ resource "cloudflare_dns_record" "www" {
   zone_id = var.zone_id
   comment = "Domain verification record"
   content = "200.200.200.200"
-  name = "www"
+  name    = "www"
   proxied = true
-  ttl = 1
-  type = "MX"
+  ttl     = 1
+  type    = "MX"
 
   #ipv4_only and ipv6_only with "true" value are avaiable for special zones
   settings = {
