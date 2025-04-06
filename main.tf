@@ -1,8 +1,8 @@
 # Add a record to the domain
-/* resource "cloudflare_dns_record" "www" {
+ resource "cloudflare_dns_record" "www" {
   zone_id = var.zone_id
   comment = "Domain verification record"
-  content = "200.200.200.200"
+  content = "190.190.190.190"
   name    = "www"
   proxied = true
   ttl     = 1
@@ -16,4 +16,4 @@
 
   #Tags are only available for paid accounts
   #tags = ["owner:SRE-team"]
-} */
+}
