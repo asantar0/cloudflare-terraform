@@ -2,7 +2,7 @@
 resource "cloudflare_dns_record" "www" {
   zone_id = var.zone_id
   comment = "Domain verification record"
-  content = "190.190.190.190"
+  content = "190.190.190.180"
   name    = "www"
   proxied = true
   ttl     = 1
